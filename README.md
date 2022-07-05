@@ -19,7 +19,9 @@ These features play a major role in training machine learning algorithms to reco
 
 ▶️ **Amplitude envelope:** It is the maximum value of all samples in a frame. It gives us a rough idea od the loudness. It is one of the features used for genre classification.
 
+
 ▶️ **Root-mean square energy:** it is the square root of mean of sum of energy for all the samples of a frame. It is the indicator of loudness and therefore is a great feature for music genre classificaation.
+
 
 ▶️ **Zero crossing rate:** its the number of times a signal crosses the horizontal axis.
 
@@ -27,8 +29,10 @@ These features play a major role in training machine learning algorithms to reco
 ▶️ **Mel-spectograms:** Mel spectograms are ideal for three reasons, time-frequency representation, human perceptual amplitude representation and human perceptual frequency representations. 
 Humans percieve frequency/amplitude representations logarithmically, which is not possible to achieve with normal spectogram, therefore mel spectograms come in handy. 
 
+
 ▶️ **MFCCs:** MFccs are very good describers of music and capable of capturing the timbre. We usually take first 12-13 coefficients in considration because those are the most relevant 
 ones. MFCCs are advantageous because they describe the large structures of the spectrum cutting down the noise that comes with the spectrum.
+
 
 ▶️ **Delta and delta-delta mfccs:** These are inshort the first and the second derivatives of the mfccs. They are very important because they tell us how the mfccs change over time in an audio file.
     
@@ -39,17 +43,20 @@ ones. MFCCs are advantageous because they describe the large structures of the s
 The split frequency gives us the threshold. All the frequencies above the threshold are higher frequencies and 
 all the frequencies below the threshold are lower frequencies.It is extensively used in music genre classification.
 
+
 ▶️ **Spectral centroidd:** Spectral centroid is the weighted mean of the frequencies. It is one of the key frequency domain feature. It provides us with the center of gravity of the magnitude spectrum i.e. it gives us the frequency band which has most of the energy.
 It measures the brightness of the sound as to how bright or dull a certain sound is.
 
+
 ▶️ **Bandwidth -** Bandwidth is related to the spectral centroid. It is the range which is of interest i.e the spectral range around the centroid. It is the weighted mean of the distances of the frequency bands from the spectral centroid. 
 It is extensively used in traditional ML based music genre classification.
+
 
 ### **Rhythmic features**
 
 ▶️ **Tempo:** It is the estimation of music tempo to be used as a feature for audio classification. Tempo is one of the suitable features for audio genre classification because each genre will have a different playing speed.
 
-**Pitch content features**
+### **Pitch content features**
 
 ▶️ **Chroma features:** These features give us more information about the notes in the music played. They can therefore be very useful in genre classification because songs of different genres would have different patterns of notes.
 
