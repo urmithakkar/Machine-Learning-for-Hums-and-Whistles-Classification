@@ -8,7 +8,7 @@ The question is how well can the machine predict the correct genre to the song p
 
 ## Machine Learning pipeline:
 
-Generally, running machine learning algorithms involves sequence of tasks such as data pre-processing, dfeature extraction, fitting the model and performing validation task. A pipeline consists of sequence of tasks. Out of the two types of pipelines, Transformer and Estimator, we will be using an Estimator Pipeline. It will include stages like scaling the data and training the models on the dataset with labels and features. The pipeline takes the training dataset as an input, scales it, trains the model, predicts the genre of the song on the validation data and computes the accuracies as the output.
+Generally, running machine learning algorithms involves sequence of tasks such as data pre-processing, feature extraction, fitting the model and performing validation task. A pipeline consists of sequence of tasks. Out of the two types of pipelines, Transformer and Estimator, we will be using an Estimator Pipeline. It will include stages like scaling the data and training the models on the dataset with labels and features. The pipeline takes the training dataset as an input, scales it, trains the model, predicts the genre of the song on the validation data and computes the accuracies as the output.
 
 
 ## Transformation stage
